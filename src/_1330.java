@@ -3,8 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-// 10896
-class _10896 { // 제출할 때 클래스 이름 반드시 Main으로 바꿔서 제출해야 함. (백준만)
+class _1330 { // 제출할 때 클래스 이름 반드시 Main으로 바꿔서 제출해야 함. (백준만)
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,12 +14,12 @@ class _10896 { // 제출할 때 클래스 이름 반드시 Main으로 바꿔서 
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a / b);
-        System.out.println(a % b);
-
-
+        if (a > b) {
+            System.out.println(">");
+        } else if (a < b) {
+            System.out.println("<");
+        } else if (a == b) {
+            System.out.println("==");
+        }
     }
 }
