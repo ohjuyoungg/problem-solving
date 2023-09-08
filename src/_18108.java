@@ -7,4 +7,4 @@ public class _18108 {
 
         System.out.println(n - 543);
             }
-        }
+}
