@@ -7,10 +7,9 @@ public class _25314 {
         n = n / 4;
         String l = "long";
 
-        for (int i = 1; i < n; i++) {
-           l = l + " " + n;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(l + " ");
         }
-        System.out.print(l + " int");
-
+        System.out.print("int");
     }
 }
