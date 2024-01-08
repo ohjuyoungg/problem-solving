@@ -11,11 +11,11 @@ public class _120831 {
             }
             n--;
         }
-        return sum + n;
+        return sum;
     }
 
 
     public static void main(String[] args) {
-        System.out.println(solution(4));
+        System.out.println(solution(10));
     }
 }
